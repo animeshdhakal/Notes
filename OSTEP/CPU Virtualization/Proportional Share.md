@@ -4,8 +4,8 @@ Proportional Share Scheduling Algorithm instead of minimizing turnaround time an
 In lottery scheduling, each job is provided with specific number of tickets. At each time slice, the scheduler hosts a lottery picking a random number from 0 to total number of tickets. The process holding that number will be ran. This approach is **probabilistic** which is its greatest strength. It doesn't guarantee exact proportions over short periods but will converge to the correct proportions over the long run.
 
 ## Stride Scheduling
-Each process has a stride which is inversely proportional to its number of tickets.
-$$ Stride = \frac{Large Number}{Number of Tickets} $$
+Each process has a stride which is inversely proportional to its number of tickets. 
+$$Stride = \frac{Large Number}{Number of Tickets}$$
 Each process has **pass value** which is a counter. Lets say A, B, C are jobs with 100, 200, 40 stride values. During the first arrival, any of the job is ran. Lets say A in this case. The **pass value** will be incremented by the **stride value**. And at next time slice, the process with a lower **pass value** will be ran. This approach is **deterministic**
 
 ## Completely Fair Scheduler (CFS)
@@ -14,8 +14,8 @@ Each process has **pass value** which is a counter. Lets say A, B, C are jobs wi
 Each process has a **vruntime**. **vruntime** is a measure of the total execution time of a process. The process with the least **vruntime** will be ran first.
 
 ### Balancing Fairness
-The major advantage of CFS is its ability to use custom time slice for each process.
-$$ Time Slice = \frac{sched_latency}{no of processes} $$
+The major advantage of CFS is its ability to use custom time slice for each process. 
+$$Time Slice = \frac{sched_latency}{no of processes}$$
  The minimum value of time slice is set through the **min_granularity**.
 
 ### Weighting
