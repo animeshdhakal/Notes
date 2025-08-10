@@ -6,7 +6,7 @@ In lottery scheduling, each job is provided with specific number of tickets. At 
 ## Stride Scheduling
 Each process has a stride which is inversely proportional to its number of tickets. 
 
-$$Stride = \frac{Large Number}{Number of Tickets}$$
+$$Stride = \frac{Large\ Number}{Number\ of\ Tickets}$$
 
 Each process has **pass value** which is a counter. Lets say A, B, C are jobs with 100, 200, 40 stride values. During the first arrival, any of the job is ran. Lets say A in this case. The **pass value** will be incremented by the **stride value**. And at next time slice, the process with a lower **pass value** will be ran. This approach is **deterministic**
 
@@ -18,7 +18,7 @@ Each process has a **vruntime**. **vruntime** is a measure of the total executi
 ### Balancing Fairness
 The major advantage of CFS is its ability to use custom time slice for each process. 
 
-$$Time Slice = \frac{sched_latency}{no of processes}$$
+$$Time Slice = \frac{sched\_latency}{no\ of\ processes}$$
 
  The minimum value of time slice is set through the **min_granularity**.
 
