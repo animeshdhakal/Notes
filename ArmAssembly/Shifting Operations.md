@@ -1,3 +1,4 @@
+# Shifting Operations
 When the bits are shifted to the right, the decimal is divided by 2 and when the the bits are shifted to the left, the decimal is multiplied by 2.
 ## Logical Shift
 The logical shift doesn't care about the sign bit. So the sign bit will also be shifted towards the direction.

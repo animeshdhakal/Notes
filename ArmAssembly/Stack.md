@@ -1,3 +1,4 @@
+# Stack
 It is the region of memory in which data can be pushed or from which can be popped. There is a specific register called stack pointer (SP) that points to the top of the stack.
 
 ## PUSH

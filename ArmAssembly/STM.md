@@ -1,3 +1,4 @@
+# STM
 This instruction enables to store multiple into memory from registers.
 
 ```assembly

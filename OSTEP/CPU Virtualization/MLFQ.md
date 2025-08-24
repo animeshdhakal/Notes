@@ -1,3 +1,4 @@
+# MLFQ
 The Multi Level Feedback Queue tries to minimize **turnaround time** for CPU intensive jobs and **response time** for interactive jobs. It tries to incorporate the behavior of the job over time. This is where the feedback part comes. MLFQ contains different priority queues. On the basis of the behavior of the job, scheduler puts the job to a certain queue based on the observation.
 
 ## Rules for MLFQ

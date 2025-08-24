@@ -1,3 +1,4 @@
+# Proportional Share
 Proportional Share Scheduling Algorithm instead of minimizing turnaround time and response time tries to provide each job fair share/percentage of the CPU.
 
 ## Lottery Scheduling

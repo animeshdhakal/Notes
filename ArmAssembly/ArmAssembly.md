@@ -1,0 +1,13 @@
+# ArmAssembly
+[[Registers]]
+[[Syntax]]
+[[LDR]]
+[[STR]]
+[[LDM]]
+[[STM]]
+[[Bitwise Operations]]
+[[Shifting Operations]]
+[[Mathematical Operations]]
+[[CPSR]]
+[[Conditional Branching]]
+[[ADRP]]

@@ -1,3 +1,4 @@
+# STR
 This instruction loads the value in a register into specified memory address
 
 ```assembly

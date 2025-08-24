@@ -1,3 +1,4 @@
+# Limited Direct Execution
 For performance reasons, we want our program to be directly run on the CPU. But for security reasons, we want the OS to intervene. So this is achieved through **Limited Direct Execution**.
 
 ## Restricted Operations

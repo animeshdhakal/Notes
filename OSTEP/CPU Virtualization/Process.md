@@ -1,3 +1,4 @@
+# Process
 A process is the primary abstraction of a running program provided by the Operating System (OS). It allows the OS to manage and run multiple programs concurrently, creating the illusion of many CPUs on a system with only a few physical CPUs. This illusion is achieved through **CPU virtualization**.
 
 ## CPU Virtualization

@@ -1,3 +1,4 @@
+# Syntax
 ## Basic Format
 ```asm
 <opcode>{<cond>} <Rd>, <Rn>, <operand2>
